@@ -1,8 +1,28 @@
-body{
+body,
+.work {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    flex-direction: column;
+}
+
+body{
+    background-color: azure;
+}
+
+.work{
+    width : 80%;
     height: 100vh;
-    background-color: antiquewhite;
+    background-color: rgb(248, 238, 233);
+    border-radius: 20px;
+    border : 1px solid black;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.work p{
+    color: rgb(73, 73, 73);
+    padding-left : 100px;
+    padding-right: 100px;
 }
