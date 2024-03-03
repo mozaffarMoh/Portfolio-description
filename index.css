@@ -4,6 +4,7 @@ body,
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
 body {
@@ -28,9 +29,18 @@ body {
 }
 
 
+@media (max-width : 850px) {
+    .work {
+        a {
+            font-size: 15px;
+        }
+    }
+}
+
 @media (max-width : 700px) {
     .work {
         min-height: 100%;
+
         h1 {
             font-size: 20px;
         }
@@ -43,6 +53,8 @@ body {
         h5 {
             font-size: 15px;
             padding: 20px;
-        };
+        }
+
+        ;
     }
 }
